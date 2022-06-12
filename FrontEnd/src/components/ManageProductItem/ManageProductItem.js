@@ -5,7 +5,7 @@ import { Col } from 'react-bootstrap';
 const ManageProductItem = (props) => {
     const { name, weight, price, _id } = props.product
     const deleteProduct = (id) => {
-        const url = `http://localhost:8080/deleteProduct/${id}`
+        const url = `https://fast-n-fresh-15.herokuapp.com/deleteProduct/${id}`
         fetch(url, {
             method: 'DELETE',
         })

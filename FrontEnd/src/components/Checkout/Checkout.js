@@ -7,7 +7,7 @@ const Checkout = () => {
     const [product, setProduct] = useState([])
     const [loggedInUser] = useContext(UserContext)
     useEffect(() => {
-        const url = `http://localhost:8080/products/${id}`
+        const url = `https://fast-n-fresh-15.herokuapp.com/products/${id}`
         console.log(url)
         fetch(url)
             .then(res => res.json())
@@ -27,7 +27,7 @@ const Checkout = () => {
 
         }
 
-        const url = `http://localhost:8080/addOrder`;
+        const url = `https://fast-n-fresh-15.herokuapp.com/addOrder`;
         fetch(url, {
             method: 'POST',
             headers: {

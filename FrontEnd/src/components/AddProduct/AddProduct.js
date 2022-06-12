@@ -19,7 +19,7 @@ const AddProduct = () => {
             price: productPrice,
             weight: productWeight,
         };
-        const url = `http://localhost:8080/addProduct`;
+        const url = `https://fast-n-fresh-15.herokuapp.com/addProduct`;
 
         console.log(productData)
         fetch(url, {
