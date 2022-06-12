@@ -1,0 +1,12 @@
+.product-photo{
+    height:80%;
+    width:100%;
+    margin-top:10%;
+    border-radius:5px;
+}
+.product-style{
+    background:rgb(233, 220, 220);
+}
+.line{
+    color:white;
+}

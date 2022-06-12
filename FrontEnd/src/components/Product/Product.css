@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+.product{
+    background:rgb(231, 239, 240)
+}
+.single-product{
+    box-shadow:5px 5px 5px lightgrey;
+    border-radius:10px 0px;
+    
+}
+.product-name{
+    font-size: 25px;
+    color:rgb(214, 60, 13);
+    font-weight:800;
+    font-family: 'Montserrat', sans-serif;
+}

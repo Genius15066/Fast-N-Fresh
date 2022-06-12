@@ -1,0 +1,32 @@
+
+.admin-page{
+    height:100vh;
+}
+.admin-page-left{
+    background:#203D37;
+}
+@media (min-width:400px) {
+    .admin-page{
+    height:30vh;
+}
+.admin-page-left{
+    line-height:3
+}
+}
+
+@media (min-width:576px) {
+.admin-page{
+    height:50vh;
+}
+.admin-page-left{
+    line-height:4
+}
+}
+@media (min-width:768px) {
+    .admin-page{
+        height:90vh;
+    }
+    .admin-page-left{
+        line-height:5
+    }
+    }
